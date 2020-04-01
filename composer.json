@@ -1,0 +1,23 @@
+{
+    "name": "copex/module-cacheemailcssfordevelopers",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Andreas Pointner",
+            "email": "andreas.pointner@copex.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CopeX\\CacheEmailCssForDevelopers\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
